@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 8px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 18px;
+    border: 0;
+    color: white;
+    padding: 4px 8px;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 158px;
+}
+
+#hero .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero, .footer {
+    background-color: #1F2937;
+}
+
+#hero .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 0px;
+}
+
+#hero .text .main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#hero .text .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 18px;
+    max-width: 350px;
+}
+
+#hero .text .secondary, a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
